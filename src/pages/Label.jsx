@@ -1,4 +1,4 @@
-function InputWithLabel(props) { //id, value, onInputChange, children (either remove props too))
+function InputWithLabel(props) {
  return ( 
    <>  
      <label htmlFor={props.id}>{props.children}</label> 
